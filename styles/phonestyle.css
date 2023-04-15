@@ -181,10 +181,9 @@
     line-height: 19px;
   }
   .gallery-controls {
-    width: 100%;
+    /* width: 100%; */
+    width: calc(100% - 24px);
     bottom: 191px;
-    /* padding-left: 13.5px;
-    padding-right: 13.5px; */
   }
   .gallery-text {
     bottom: 60px;
@@ -193,6 +192,22 @@
     font-size: 19px;
     line-height: 26px;
   }
+  .gallery-control-prev {
+    height: 25px;
+    width: 15px;
+    background: url("../resources/arrow-left-phone.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .gallery-control-next {
+    height: 25px;
+    width: 15px;
+    border: none;
+    background: url("../resources/arrow-left-phone.png");
+    transform: rotate(180deg);
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
   .image-gallery {
     width: 100%;
     height: 375px;
@@ -200,6 +215,7 @@
   }
 
   .container-contacts-fullscreen {
+    margin-top: 80px;
     padding-left: 11px;
   }
   .contacts {
