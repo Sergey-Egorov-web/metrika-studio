@@ -1,0 +1,274 @@
+@media (max-width: 767px) {
+  .container-introduction {
+    width: 100%;
+    min-width: 350px;
+    margin-top: 108px;
+    margin-bottom: 80px;
+    padding-left: 13px;
+    padding-right: 12px;
+  }
+  .container-projects {
+    width: 100%;
+    min-width: 350px;
+    margin-bottom: 144px;
+    padding-left: 13px;
+    padding-right: 12px;
+  }
+  h1 {
+    width: 328px;
+    height: 95px;
+    font-size: 30px;
+    line-height: 32px;
+  }
+  .interior {
+    width: 100%;
+    /* height: 304px; */
+    margin-top: 25px;
+    margin-bottom: 80px;
+    background-image: url("../resources/armchair.png");
+    background-position: 30%;
+  }
+  .introduction {
+    left: 15px;
+    bottom: 15px;
+    width: 312px;
+    height: 88px;
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  h2 {
+    margin-bottom: 20px;
+    font-size: 14px;
+    line-height: 19px;
+  }
+  .text-about {
+    width: 100%;
+    padding-right: 5px;
+    font-size: 22px;
+    line-height: 30px;
+  }
+
+  .button-services {
+    border-radius: 4px;
+    width: 194px;
+    height: 51px;
+    padding-top: 14.5px;
+    padding-bottom: 14.5px;
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .project {
+    margin-bottom: 49px;
+  }
+  .project-name {
+    width: auto;
+    margin-bottom: 11px;
+    font-size: 18px;
+    line-height: 25px;
+  }
+  .image-project {
+    margin-bottom: 20px;
+  }
+  .about-project {
+    font-size: 16px;
+    line-height: 25px;
+    margin-left: 0;
+  }
+
+  .look-projects {
+    height: 100px;
+    margin-top: 60px;
+    font-size: 22px;
+    line-height: 100px;
+  }
+
+  .container-service {
+    min-width: 350px;
+  }
+  .service-fullscreen {
+    padding-left: 21px;
+    padding-right: 15px;
+    margin: 0 auto;
+    padding-bottom: 80px;
+  }
+  h2.services-title {
+    padding-top: 80px;
+    margin-left: 3px;
+  }
+  .flex-container-service {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  .service {
+    width: 100%;
+    max-width: 749px;
+    margin: 0 auto 60px auto;
+  }
+  .text-service {
+    margin-top: 10px;
+    font-size: 18px;
+    line-height: 25px;
+  }
+  .price-service {
+    top: 24px;
+    left: 23px;
+    padding-left: 24px;
+    padding-right: 23px;
+    font-size: 14px;
+    line-height: 30px;
+  }
+  .image-service {
+    width: 100%;
+    object-fit: contain;
+    height: auto;
+  }
+  .order-service {
+    margin: 0 auto;
+    border-radius: 4px;
+    width: 100%;
+    font-size: 22px;
+    line-height: 100px;
+  }
+  .container-comments {
+    min-width: 350px;
+    margin-bottom: 80px;
+  }
+  .comments-fullscreen {
+    padding-left: 13px;
+    padding-right: 13px;
+  }
+  h2.comments-title {
+    padding-top: 80px;
+    margin-bottom: 22px;
+  }
+  .flex-container-comments {
+    flex-direction: column;
+    justify-content: center;
+  }
+  h3.name-comment {
+    margin-bottom: 10px;
+    font-size: 25px;
+    line-height: 34px;
+  }
+  .comment {
+    width: 100%;
+    margin-bottom: 80px;
+  }
+  .comment:last-child:nth-child(2n + 1) {
+    width: 100%;
+  }
+  .text-comment {
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .container-gallery {
+    height: 375px;
+  }
+  /* .container-text-gallery {
+    top: 61px;
+  } */
+  .text-gallery-wrapper {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+
+  .gallery-title {
+    font-size: 14px;
+    line-height: 19px;
+  }
+  .gallery-controls {
+    width: 100%;
+    bottom: 191px;
+    /* padding-left: 13.5px;
+    padding-right: 13.5px; */
+  }
+  .gallery-text {
+    bottom: 60px;
+    width: 287px;
+    height: 52px;
+    font-size: 19px;
+    line-height: 26px;
+  }
+  .image-gallery {
+    width: 100%;
+    height: 375px;
+    object-fit: cover;
+  }
+
+  .container-contacts-fullscreen {
+    padding-left: 11px;
+  }
+  .contacts {
+    margin-bottom: 58px;
+  }
+  .container-contacts {
+    width: 100%;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    row-gap: 58px;
+    margin-bottom: 80px;
+    padding-left: 2px;
+  }
+  .phone-number {
+    width: 100%;
+  }
+  .phone-link {
+    font-size: 35px;
+    line-height: 46px;
+  }
+  .phone-number:before {
+    width: 24px;
+    height: 24px;
+    top: -23px;
+    left: -1px;
+  }
+  .mail {
+    width: 100%;
+  }
+  .mail-link {
+    font-size: 35px;
+    line-height: 46px;
+    opacity: 1;
+  }
+  .mail:before {
+    position: absolute;
+    display: block;
+    content: "";
+    width: 20px;
+    height: 15px;
+    top: -23px;
+    left: 1px;
+  }
+  .line {
+    width: 0;
+    height: 0;
+  }
+
+  .footer-container {
+    height: 131px;
+  }
+  .footer-menu {
+    column-gap: 30px;
+    padding-top: 30px;
+  }
+  .footer-link {
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .footer-metrika {
+    width: 253px;
+    margin: 41px auto;
+    font-size: 13px;
+    line-height: 18px;
+  }
+
+  @media (max-width: 500px) {
+    .interior {
+      background-image: url("../resources/armchair-phone.png");
+    }
+  }
+}
