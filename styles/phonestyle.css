@@ -193,20 +193,16 @@
     line-height: 26px;
   }
   .gallery-control-prev {
-    height: 25px;
-    width: 15px;
+    height: 30px;
+    width: 30px;
     background: url("../resources/arrow-left-phone.png");
-    background-size: contain;
-    background-repeat: no-repeat;
   }
   .gallery-control-next {
-    height: 25px;
-    width: 15px;
+    height: 30px;
+    width: 30px;
     border: none;
     background: url("../resources/arrow-left-phone.png");
     transform: rotate(180deg);
-    background-size: contain;
-    background-repeat: no-repeat;
   }
   .image-gallery {
     width: 100%;
