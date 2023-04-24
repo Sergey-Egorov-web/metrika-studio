@@ -5,7 +5,6 @@ body {
   font-family: "Manrope", sans-serif;
   font-style: normal;
   font-weight: 400;
-  /* width: 1400px; */
   margin: 0 auto;
   letter-spacing: -0.03em;
   background-color: #ffffff;
@@ -18,36 +17,34 @@ body {
   margin: 0 auto;
 }
 .nav-section {
-  width: 1400px;
-  margin-top: 33px;
+  width: 1150px;
+  margin: 33px auto 0 auto;
 }
 .nav-container {
-  width: 1160px;
-  height: 25px;
-  margin-top: 32.82px;
-  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
 }
 
-.logo-link {
-  display: inline-block;
-  margin-right: 555px;
-}
+/* .logo-link {
+} */
+
 .logo {
   display: block;
-  width: 126.89px;
-  height: 21.42px;
+  width: 127px;
+  height: 21px;
 }
 
 .nav {
-  display: inline;
-  width: 1152px;
-  height: 25px;
-  vertical-align: top;
+  display: flex;
+  width: 100%;
+  max-width: 1400px;
+  flex-wrap: nowrap;
+  justify-content: end;
+  column-gap: 60px;
 }
 .nav-link {
-  width: 90px;
-  height: 25px;
-  margin-right: 60px;
+  width: auto;
   font-size: 18px;
   line-height: 25px;
   letter-spacing: -0.03em;
@@ -55,11 +52,11 @@ body {
   text-decoration: none;
   color: #121212;
 }
-.nav-link:nth-last-child(1) {
-  margin-right: 0px;
-}
 .nav-link:hover {
   border-bottom: 1px solid rgba(255, 123, 210, 0.5);
+}
+.burger-btn {
+  display: none;
 }
 .container-introduction {
   width: 1150px;
@@ -605,4 +602,29 @@ h3.name-comment {
 
 .input-text::placeholder {
   text-align: left;
+}
+.burger {
+  /* display: none; */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.2s ease;
+}
+
+.burger-open {
+  opacity: 1;
+  visibility: visible;
+}
+.burger-content {
+  background-color: #ffffff;
+  width: 274px;
+  height: 612px;
 }
