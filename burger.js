@@ -1,13 +1,15 @@
 const BURGER_OPENED_CLASSNAME = "burger-open";
 const BURGER_BTN_OPENED_CLASSNAME = "burger-btn_open";
-const BODY_FIXED_CLASSNAME_2 = "body-fixed";
+const BODY_FIXED_CLASSNAME_2 = "body_fixed";
 
 const bodyNode2 = document.querySelector("body");
 const burgerNode = document.querySelector(".js-burger");
 const burgerBtnNode = document.querySelector(".js-burger-btn");
 const burgerContentNode = document.querySelector(".js-burger-content");
+const btnCloseNode2 = document.querySelector(".js-burger__close-btn");
 
 burgerBtnNode.addEventListener("click", toggleBurger);
+btnCloseNode2.addEventListener("click", toggleBurger);
 
 burgerNode.addEventListener("click", (event) => {
   const isClickOutsideContent = !event
@@ -20,6 +22,7 @@ burgerNode.addEventListener("click", (event) => {
 });
 
 function toggleBurger() {
+  btnCloseNode2.classList.toggle(BURGER_BTN_OPENED_CLASSNAME);
   burgerNode.classList.toggle(BURGER_OPENED_CLASSNAME);
   bodyNode2.classList.toggle(BODY_FIXED_CLASSNAME_2);
   burgerBtnNode.classList.toggle(BURGER_BTN_OPENED_CLASSNAME);

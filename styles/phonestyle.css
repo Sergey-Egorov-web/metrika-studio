@@ -1,8 +1,15 @@
 @media (max-width: 767px) {
+  .nav-section {
+    width: 100%;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-top: 31px;
+  }
+
   .container-introduction {
     width: 100%;
     min-width: 350px;
-    margin-top: 108px;
+    margin-top: 70px;
     margin-bottom: 80px;
     padding-left: 13px;
     padding-right: 12px;
@@ -196,12 +203,14 @@
     height: 30px;
     width: 30px;
     background: url("../resources/arrow-left-phone.png");
+    background-repeat: no-repeat;
   }
   .gallery-control-next {
     height: 30px;
     width: 30px;
     border: none;
     background: url("../resources/arrow-left-phone.png");
+    background-repeat: no-repeat;
     transform: rotate(180deg);
   }
   .image-gallery {

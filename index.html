@@ -288,24 +288,62 @@
     </footer>
     <div class="js-popup popup">
       <div class="js-popup__content popup-content">
+        <button class="js-popup__close-btn popup-close-btn"></button>
         <p class="popup-title">Заказать услугу</p>
         <p class="popup-text">
           Заполните форму, мы свяжемся с вами в течение суток
         </p>
         <div class="popup-container">
-          <input class="input-text" type="text" placeholder="Имя" />
+          <input class="input-text" type="text" name="name" placeholder="Имя" />
+          <input
+            class="input-text"
+            type="email"
+            name="email"
+            placeholder="Электронная почта"
+          />
           <input
             class="input-text"
             type="text"
-            placeholder="Электронная почта"
+            name="phone"
+            placeholder="Номер телефона"
           />
-          <input class="input-text" type="text" placeholder="Номер телефона" />
           <a href="" class="popup-send-btn">Отправить</a>
         </div>
       </div>
     </div>
     <div class="js-burger burger">
-      <div class="js-burger-content burger-content"></div>
+      <div class="js-burger-content burger-content">
+        <button class="js-burger__close-btn close-btn-burger"></button>
+        <a class="logo-link-burger" href="#Metrika">
+          <img class="logo-burger" src="resources/logo.png" alt="Metrika" />
+        </a>
+        <ul class="nav-burger">
+          <li>
+            <a class="nav-link-burger" href="#about">О нас</a>
+          </li>
+          <li>
+            <a class="nav-link-burger" href="#projects">Проекты</a>
+          </li>
+          <li>
+            <a class="nav-link-burger" href="#services">Услуги</a>
+          </li>
+          <li>
+            <a class="nav-link-burger" href="#contacts">Контакты</a>
+          </li>
+        </ul>
+        <div class="contacts-burger">
+          <p class="contacts-burger-text">для связи:</p>
+          <div id="contacts" class="container-contacts">
+            <a class="phone-link-burger" href="tel:+7 935 895-45-35"
+              >+7 935 895-45-35</a
+            >
+
+            <a class="tg-link-burger" target="_blank" href="https://t.me/SerjDc"
+              >S.A.Egorov</a
+            >
+          </div>
+        </div>
+      </div>
     </div>
     <script src="gallery.js"></script>
     <script src="popup.js"></script>

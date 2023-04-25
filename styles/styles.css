@@ -17,6 +17,7 @@ body {
   margin: 0 auto;
 }
 .nav-section {
+  position: relative;
   width: 1150px;
   margin: 33px auto 0 auto;
 }
@@ -368,7 +369,7 @@ h3.name-comment {
   background: url("../resources/arrow-left.png");
   transform: rotate(180deg);
   background-size: contain;
-  background-position: left;
+  background-position: right;
   background-repeat: no-repeat;
   opacity: 0.5;
   cursor: pointer;
@@ -535,6 +536,8 @@ h3.name-comment {
   background-image: url("../resources/close-desctop.png");
   background-repeat: no-repeat;
   background-position: center;
+  background-color: #ffffff;
+  border: none;
 }
 
 .popup-content {
@@ -624,7 +627,68 @@ h3.name-comment {
   visibility: visible;
 }
 .burger-content {
+  position: relative;
   background-color: #ffffff;
   width: 274px;
-  height: 612px;
+  height: 100%;
+}
+
+.logo-burger {
+  width: 156px;
+  height: 26px;
+  margin-top: 80px;
+  margin-left: 30px;
+}
+
+.nav-burger {
+  margin-top: 50px;
+  padding-left: 30px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.nav-link-burger {
+  font-size: 25px;
+  line-height: 34px;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  color: #000000;
+}
+.contacts-burger {
+  margin-top: 90px;
+  margin-left: 33px;
+}
+
+.contacts-burger-text {
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: -0.03em;
+  color: #000000;
+  opacity: 0.5;
+}
+.phone-link-burger {
+  font-size: 20px;
+  line-height: 46px;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  color: #121212;
+}
+.tg-link-burger {
+  font-size: 20px;
+  line-height: 60px;
+  letter-spacing: -0.03em;
+  color: #121212;
+}
+.close-btn-burger {
+  position: absolute;
+  top: 26px;
+  right: 26px;
+  background-image: url(../resources/close-desctop.png);
+  width: 34px;
+  height: 34px;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: none;
+  cursor: pointer;
 }
