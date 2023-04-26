@@ -10,7 +10,6 @@ const btnCloseNode2 = document.querySelector(".js-burger__close-btn");
 
 burgerBtnNode.addEventListener("click", toggleBurger);
 btnCloseNode2.addEventListener("click", toggleBurger);
-
 burgerNode.addEventListener("click", (event) => {
   const isClickOutsideContent = !event
     .composedPath()

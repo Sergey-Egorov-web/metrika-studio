@@ -23,7 +23,7 @@
   }
   h1 {
     width: 328px;
-    height: 95px;
+    /* height: 95px; */
     font-size: 30px;
     line-height: 32px;
   }
@@ -273,7 +273,10 @@
     height: 131px;
   }
   .footer-menu {
-    column-gap: 30px;
+    width: 100%;
+    padding-left: 47px;
+    padding-right: 47px;
+    column-gap: auto;
     padding-top: 30px;
   }
   .footer-link {
@@ -309,6 +312,7 @@
     font-size: 25px;
     line-height: 34px;
     padding-top: 80px;
+    margin-bottom: 11px;
   }
 
   .popup-text {
@@ -316,7 +320,7 @@
     line-height: 19px;
     width: 209px;
     text-align: center;
-    margin: 0 auto;
+    margin: 0 auto 70px auto;
   }
 
   .popup-container {

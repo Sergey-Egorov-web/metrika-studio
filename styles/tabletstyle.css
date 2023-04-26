@@ -48,7 +48,8 @@
   }
 
   h1 {
-    width: 802px;
+    max-width: 802px;
+    width: auto;
     font-size: 50px;
   }
   .interior {
@@ -105,9 +106,9 @@
     margin-top: 102px;
   }
 
-  .container-service {
+  /* .container-service {
     min-width: 768px;
-  }
+  } */
   .service-fullscreen {
     padding-left: 27px;
     padding-right: 23px;
@@ -148,7 +149,7 @@
     line-height: 153px;
   }
   .container-comments {
-    min-width: 768px;
+    /* min-width: 768px; */
     margin-bottom: 120px;
   }
   .comments-fullscreen {
@@ -214,7 +215,7 @@
   }
   .phone-number {
     padding-top: 10px;
-    width: 354px;
+    width: auto;
     height: 60px;
   }
   .phone-link {
@@ -222,7 +223,7 @@
     line-height: 60px;
   }
   .mail {
-    width: 309px;
+    width: auto;
     height: 60px;
   }
   .mail-link {
